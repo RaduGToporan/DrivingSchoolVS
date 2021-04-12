@@ -1,0 +1,37 @@
+﻿body {
+    background-color: powderblue !important;
+}
+
+#instructorsH {
+    color: blue !important;
+    border: 2px solid green !important;
+}
+
+p {
+    color: red !important;
+}
+
+table {
+    font-family: arial, sans-serif !important;
+    border-collapse: collapse !important;
+    width: 100% !important;
+}
+
+table, td, th {
+    border: 1px solid black !important;
+    text-align: left !important;
+    padding: 8px !important;
+    border-collapse: collapse !important;
+}
+
+th, td {
+    padding: 15px !important;
+}
+
+th {
+    text-align: center !important;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd !important;
+}

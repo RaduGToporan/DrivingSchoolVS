@@ -1,0 +1,70 @@
+﻿/*pagina contact*/
+input [type=text], select, textarea {
+    width: 50% !important;
+    padding: 12px !important;
+    border: 1px solid #ccc !important;
+    border-radius: 4px !important;
+    box-sizing: border-box !important;
+    margin-top: 6px !important;
+    margin-bottom: 15px !important;
+    resize: vertical !important;
+}
+
+input[type=submit] {
+    background-color: #395580 !important;
+    color: white !important;
+    padding: 12px 20px !important;
+    border: none !important;
+    border-radius: 4px !important;
+    cursor: pointer !important;
+    float: left !important;
+}
+
+    input[type=submit]:hover {
+        background-color: #263E63 !important;
+    }
+
+.container {
+    padding: 5px !important;
+}
+
+
+label {
+    padding: 5px 2px 12px 0px !important;
+    display: inline-block !important;
+}
+
+.col-25 {
+    float: left !important;
+    width: 15% !important;
+    margin-top: 5px !important;
+}
+
+.col-75 {
+    float: left !important;
+    width: 75% !important;
+    margin-top: 5px !important;
+}
+
+.column {
+    float: left !important;
+    padding: 5px !important;
+    height: 350px !important;
+}
+
+.left {
+    width: 57% !important;
+    background-color: #c2c2d6 !important;
+}
+
+.right {
+    width: 41.2%;
+    background-color: #efeff5 !important;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "" !important;
+    display: table !important;
+    clear: both !important;
+}

@@ -1,0 +1,118 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Join.css">
+    <title> Join our team</title>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <img src="Join.png">
+
+    <div class="row">
+        <div class="column left">
+
+            <div class="container">
+                <form action="/action_page.php">
+                    <div class="row left">
+                        <div class="col-25">
+                            <label for="fname">First name</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="fname" name="firstname" placeholder="First name">
+                        </div>
+                    </div>
+
+                    <div class="row left">
+                        <div class="col-25"><label for="lname">Last name </label></div>
+                        <div class="col-75"><input type="text" id="lname" name="lastname" placeholder="Last name"></div>
+                    </div>
+
+                    <div class="row left">
+                        <div class="col-25">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="email" name="email" placeholder="email address">
+                        </div>
+                    </div>
+
+                    <div class="row left">
+                        <div class="col-25">
+                            <label for="The date of obtaining the driving license">The date of obtaining the driving license</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="date" id="date" name="date" placeholder="The date of obtaining the driving license">
+                        </div>
+                    </div>
+
+                    <div class="row left">
+                        <div class="col-25">
+                            <label for="Date of birth">Date of birth</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="date" id="date" name="date" placeholder="Date of birth">
+                        </div>
+                    </div>
+
+                    <div class="row left">
+                        <div class="col-25">
+                            <label for="subject">Category to become trainer</label>
+                        </div>
+                        <div class="col-75">
+                            <select id="oras" name="oras">
+                                <option value="AM">AM</option>
+                                <option value="A1">A1</option>
+                                <option value="A2">A2</option>
+                                <option value="A">A</option>
+                                <option value="B">B</option>
+                                <option value="B1">B1</option>
+                                <option value="BE">BE</option>
+                                <option value="C">C</option>
+                                <option value="CE">CE</option>
+                                <option value="C1">C1</option>
+                                <option value="C1E">C1E</option>
+                                <option value="D">D</option>
+                                <option value="DE">DE</option>
+                                <option value="TR">TR</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="row left">
+                        <div class="col-25"> <label for="lname">Owned car (if any)</label></div>
+                        <div class="col-75">
+                            <textarea id="Owned car (if any)" name="Owned car (if any)" placeholder="Owned car (if any)"> </textarea>
+                        </div>
+                    </div>
+
+                    <div class="row left"> <input type="submit" value="Submit"></div>
+                </form>
+
+            </div> <!-- container-->
+        </div> <!-- column left -->
+
+        <div class="column right">
+            <table>
+                <tr> <td>Topio driving school </td> </tr>
+                <tr> <td>Where to find us?</td> </tr>
+                <tr> <td>Strada Dezrobirii, Craiova, Dolj</td> </tr>
+                <tr> <td><img src="DezrobiriiStreet.png" style="height: 240px; width: 400px;"></td> </tr>
+                <tr> <td>Email: Topio@yahoo.com</td> </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
