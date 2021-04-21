@@ -5,7 +5,9 @@
     ViewData["Title"] = "Instructors";
 }
 
-<h1>Index</h1>
+<img src="InstructoriScoala.jpg" width="304" height="200">
+<h1>These are the available instructors</h1>
+<p>We have the best instructors in the city.</p>
 
 <p>
     <a asp-action="Create">Create New</a>
@@ -46,7 +48,7 @@
                 </td>
                 <td>
                     <a asp-action="Edit" asp-route-id="@item.InstructorId">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.InstructorId">Details</a> |
+                    <a asp-action="Details" asp-route-id="@item.InstructorId">Available vehicles</a> |
                     <a asp-action="Delete" asp-route-id="@item.InstructorId">Delete</a>
                 </td>
             </tr>
