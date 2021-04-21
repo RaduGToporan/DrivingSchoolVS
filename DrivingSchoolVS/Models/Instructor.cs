@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DrivingSchoolVS.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -12,6 +13,7 @@ namespace DrivingSchool.Models
         public int YearOfBirth { get; set; }
         public string PhoneNumber { get; set; }
         public string Email { get; set; }
-        public ICollection<Vehicle> Vehicles { get; set; }
+        public List<Vehicle> Vehicles { get; set; } = new List<Vehicle>();
+
     }
 }
