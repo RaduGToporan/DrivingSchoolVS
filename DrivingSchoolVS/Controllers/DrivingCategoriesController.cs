@@ -6,9 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using DrivingSchool.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace DrivingSchoolVS.Controllers
 {
+    [Authorize(Roles = "Administrator")]
     public class DrivingCategoriesController : Controller
     {
         private readonly DrivingSchoolContext _context;
